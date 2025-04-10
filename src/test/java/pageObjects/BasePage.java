@@ -12,5 +12,6 @@ public class BasePage {
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
+		//checking git commit only
 	}
 }
